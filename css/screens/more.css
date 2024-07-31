@@ -1,0 +1,20 @@
+.more-screen .icon-row {
+  margin-top: 25px;
+}
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+.material-symbols-outlined.icon-error {
+  font-size: 24px;
+  color: tomato;
+  font-variation-settings: "FILL" 0;
+}
+.material-symbols-outlined.icon-chat {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
