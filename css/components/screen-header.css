@@ -4,11 +4,29 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  /*position: fixed;
+  top: 20px;
+  width: 100%;*/
 }
 .screen-header__title {
   font-size: 32px;
   font-weight: 700;
 }
+.screen-header__icons {
+  position: relative;
+}
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+@keyframes rotateIcons {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .icon-settings:hover {
+  animation: rotateIcons 1s linear infinite;
 }
